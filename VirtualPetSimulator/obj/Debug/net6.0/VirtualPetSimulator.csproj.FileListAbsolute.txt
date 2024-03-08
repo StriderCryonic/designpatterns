@@ -1,0 +1,15 @@
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\obj\Debug\net6.0\VirtualPetSimulator.csproj.AssemblyReference.cache
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\obj\Debug\net6.0\VirtualPetSimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\obj\Debug\net6.0\VirtualPetSimulator.AssemblyInfoInputs.cache
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\obj\Debug\net6.0\VirtualPetSimulator.AssemblyInfo.cs
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\obj\Debug\net6.0\VirtualPetSimulator.csproj.CoreCompileInputs.cache
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\bin\Debug\net6.0\VirtualPetSimulator.exe
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\bin\Debug\net6.0\VirtualPetSimulator.deps.json
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\bin\Debug\net6.0\VirtualPetSimulator.runtimeconfig.json
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\bin\Debug\net6.0\VirtualPetSimulator.dll
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\bin\Debug\net6.0\VirtualPetSimulator.pdb
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\obj\Debug\net6.0\VirtualPetSimulator.dll
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\obj\Debug\net6.0\refint\VirtualPetSimulator.dll
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\obj\Debug\net6.0\VirtualPetSimulator.pdb
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\obj\Debug\net6.0\VirtualPetSimulator.genruntimeconfig.cache
+C:\Users\cryon\OneDrive\Documents\College\Semester Material\6th Sem Material\Design Patterns\Project\VirtualPetSimulator\obj\Debug\net6.0\ref\VirtualPetSimulator.dll
