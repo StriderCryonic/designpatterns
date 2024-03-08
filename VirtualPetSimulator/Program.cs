@@ -1,13 +1,16 @@
 ﻿//C# Program to implement a Virtual Pet Simulator
 using System;
+using VirtualPetSimulator.VirtualPet;
 
 namespace PetSim
 {
-    class Main
+    class MainLoop
     {
-        public void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World.")
+            Gacha gachabox = new Gacha();
+            PetBreedDecorator newPet = gachabox.getGacha();
+            Console.WriteLine(newPet.describe());
         }
     }
 }
