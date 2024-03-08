@@ -1,6 +1,7 @@
 ﻿//C# Program to implement a Virtual Pet Simulator
 using System;
-using VirtualPetSimulator.VirtualPet;
+using VirtualPetSimulator;
+using VirtualPetSimulator.user;
 
 namespace PetSim
 {
@@ -8,9 +9,9 @@ namespace PetSim
     {
         public static void Main(string[] args)
         {
-            Gacha gachabox = new Gacha();
-            PetBreedDecorator newPet = gachabox.getGacha();
-            Console.WriteLine(newPet.describe());
+            User user = new User("Ash Ketchup", 12);
+
+            Console.Write($"{user.Name} owns pet:\n{user.currentPet.describe()}");
         }
     }
 }

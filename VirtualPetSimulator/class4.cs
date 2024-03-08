@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace YourNamespace
+namespace VirtualPetSimulator.work
 {
     // Interface for job types
     public interface IJob
