@@ -2,6 +2,7 @@
 using System;
 using VirtualPetSimulator.VirtualPet;
 using VirtualPetSimulator.user;
+using VirtualPetSimulator.work;
 
 namespace VirtualPetSimulator.dungeon
 {
@@ -184,16 +185,26 @@ namespace VirtualPetSimulator.user
         public int Age { get; }
         private int balance;
         public PetBreedDecorator currentPet;
-
+        public Gacha gachapon = new Gacha();
+        public IJob currentJob;
+        public int dayCount = 0;
 
         public User(string name, int age)
         {
             Name = name;
             Age = age;
-            balance = 200;
-
-            Gacha gachapon = new Gacha();
-            currentPet = gachapon.getGacha();
+            balance = 100;
+        }
+        public void checkjobUpgrade()
+        {
+            if (this.balance > 300 && (currentJob.GetType() == new DeliveryJob().GetType()))
+            {
+                currentJob = new RetailJob();
+            }
+            else if(this.balance > 1000 && (currentJob.GetType() == new RetailJob().GetType()))
+            {
+                currentJob = new OfficeJob();
+            }
         }
 
         public int Balance

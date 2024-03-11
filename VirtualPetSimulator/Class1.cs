@@ -13,6 +13,11 @@ namespace VirtualPetSimulator.VirtualPet
         int getDamage();
         int getHealth();
         string getHealthStatus();
+        int gethealthPurchaseCount();
+        int getdamagePurchaseCount();
+        void updatehealthPurchaseCount();
+        void updatedamagePurchaseCount();
+        void updatemaxHealth();
     }
     //abstract component class for further abstraction
 
@@ -23,9 +28,10 @@ namespace VirtualPetSimulator.VirtualPet
         protected int damage = 1;
         protected int level = 1;
 
-
+        public int healthPurchaseCount = 0;
+        public int damagePurchaseCount = 0;
         public double difficultyScale = 0.1;
-        public double costScale = 0.1;
+        public double costScale = 10;
 
         public void incrementLevel()
         {
@@ -64,6 +70,30 @@ namespace VirtualPetSimulator.VirtualPet
         {
             return this.level;
         }
+
+        public int gethealthPurchaseCount()
+        {
+            return this.healthPurchaseCount;
+        }
+        public int getdamagePurchaseCount()
+        {
+            return this.damagePurchaseCount;
+        }
+
+        public void updatemaxHealth()
+        {
+            this.maxHealth += 5;
+        }
+
+        public void updatehealthPurchaseCount()
+        {
+            this.healthPurchaseCount++;
+        }
+
+        public void updatedamagePurchaseCount()
+        {
+            this.damagePurchaseCount++;
+        }
     }
 
     //concrete pet classes
@@ -78,7 +108,7 @@ namespace VirtualPetSimulator.VirtualPet
 
         public override string describe()
         {
-            return "Pet Type: Dog\n";
+            return "Pet Type: Dog(Common)\n";
         }
     }
     class Dingo : Pet
@@ -91,7 +121,7 @@ namespace VirtualPetSimulator.VirtualPet
         }
         public override string describe()
         {
-            return "Pet Type: Dingo\n";
+            return "Pet Type: Dingo(Uncommon)\n";
         }
     }
     class Dragon : Pet
@@ -104,7 +134,7 @@ namespace VirtualPetSimulator.VirtualPet
         }
         public override string describe()
         {
-            return "Pet Type: Dragon\n";
+            return "Pet Type: Dragon(Epic)\n";
         }
     }
     class Dodo : Pet
@@ -117,7 +147,7 @@ namespace VirtualPetSimulator.VirtualPet
         }
         public override string describe()
         {
-            return "Pet Type: Dodo\n";
+            return "Pet Type: Dodo(Legendary)\n";
         }
     }
     class Default : Pet
@@ -172,6 +202,39 @@ namespace VirtualPetSimulator.VirtualPet
         public string getHealthStatus()
         {
             return _pet.getHealthStatus();
+        }
+        public int gethealthPurchasecount()
+        {
+            return _pet.gethealthPurchaseCount();
+        }
+        public int getdamagePurchasecount()
+        {
+            return _pet.getdamagePurchaseCount();
+        }
+
+        public int gethealthPurchaseCount()
+        {
+            return _pet.gethealthPurchaseCount();
+        }
+
+        public int getdamagePurchaseCount()
+        {
+            return _pet.getdamagePurchaseCount();
+        }
+
+        public void updatemaxHealth()
+        {
+            _pet.updatemaxHealth();
+        }
+
+        public void updatehealthPurchaseCount()
+        {
+            _pet.updatehealthPurchaseCount();
+        }
+
+        public void updatedamagePurchaseCount()
+        {
+            _pet.updatedamagePurchaseCount();
         }
     }
 
